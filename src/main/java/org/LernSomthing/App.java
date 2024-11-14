@@ -14,6 +14,7 @@ public class App {
 	  studentSchedule.addSubject(DayOfWeek.TUESDAY, "Biology");
 	  studentSchedule.addSubject(DayOfWeek.WEDNESDAY, "Art");
 	  studentSchedule.getListOfSubjects();
+	  loop();
   }
 public static void loop() {
 	  Map<String,Integer> myMap = new HashMap<>();
